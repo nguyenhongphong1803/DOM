@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.main {
+    position: fixed;
+    bottom: 15px;
+    left: 15px;
+    max-width: 390px;
+    height: 152px;
+    background-color: #bde0fe;
+    display: grid;
+    grid-template-columns: auto auto;
+    box-shadow: 10px 10px 8px -4px green;
+    border-radius: 10px;
+    transform: translateY(150%);
+    animation-name: main;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    /* animation-delay: -2s; */
+
+    
+}
+
+@keyframes main {
+    to {
+        transform: translateY(0%);
+
+    }
+    from {
+        transform: translateY(150%);
+
+    } 
+ }
+.name {
+    display: none;
+}
+
+.main .image {
+    width: 133px;
+    margin-right: 10px;
+    border-radius: 10px;
+
+}
+
+.content {
+   
+}
