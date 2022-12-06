@@ -1,0 +1,23 @@
+.main {
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    padding-top: 200px;
+}
+
+.pushdown, .pushup{
+    font-size: 20px;
+    padding: 15px;
+    border-radius: 10px;
+    margin: 10px;
+    cursor: pointer;
+}
+.pushdown:hover, .pushup:hover {
+    background-color: rgba(255,245,252,0.2);
+}
+
+.num {
+    font-size: 100px;
+    color: blueviolet;
+    margin: 10px;
+}
