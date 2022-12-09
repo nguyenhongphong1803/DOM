@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.para {
+    margin: 150px auto;
+   
+    width: max-content;
+    position: relative;
+}
+
+.info{
+   position: absolute;
+   top: 130px;
+   right: 306px;
+   background-color: aqua;
+   border-radius: 3px;
+    margin-right: auto;
+    margin-left: auto;
+    width: max-content;
+    /* position: relative; */
+    display: none;
+}
+
+.active {
+    display: block;
+}
