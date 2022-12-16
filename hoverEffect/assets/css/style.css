@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+};
+
+
+
+.navigation {
+   display: flex;
+   
+   align-items: center;
+   justify-items: center;
+   padding: 20px;
+}
+
+ul.navigation {
+    position: relative;
+    margin: 20px auto;
+    display: flex;
+ 
+    justify-content: center;
+}
+
+.navigation > li {
+    display: inline;
+    padding-right: 20px;
+}
+.decoration{
+    background-color: black;
+    height: 2px;
+    /* border: 1px solid black; */
+    width: 0px;
+    position: absolute;
+    transition: all 0.25s;
+    
+}
